@@ -8,14 +8,20 @@
     <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Clicks: 0 </h1>
+    <h1>Clicks: <span id="parrot-count">0</span> </h1>
 
-      <img src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif" />
+    <section>
+
+      <img id="parrot" src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif" />
+      <p>
+        <button id="reset-button">Reset</button>
+      </p>  
+    </section>
 
     <!--  TODO: Add reset button -->
 
     <!--  Extra: -->
-    <!-- <main>
+    <main>
       <div id="box-one" class="box box--mouseover">
         <p>hover over me</p>
       </div>
@@ -28,6 +34,7 @@
       <div id="box-four" class="box box--dblclick">
         <p>double click me</p>
       </div>
-    </main> -->
+    </main>
+    <script src = "/src/index.js"></script> 
   </body>
 </html>
