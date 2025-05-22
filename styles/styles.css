@@ -32,3 +32,9 @@ body {
 #parrot.enlarged {
   width: 200px;
 }
+
+
+#parrot.hidden{
+  opacity:0;
+}
+
