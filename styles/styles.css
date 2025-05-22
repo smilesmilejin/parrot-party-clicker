@@ -23,4 +23,12 @@ body {
     margin: 20%;
     user-select: none;
   }
-  
+
+
+#parrot{
+  width: 100px;
+}
+
+#parrot.enlarged {
+  width: 200px;
+}

@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width" />
 
     <title>Parrot Party Clicker</title>
-    <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="/styles/styles.css" rel="stylesheet" type="text/css" /> -->
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Clicks: 0 </h1>
-
-      <img src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif" />
-
+    <button id="add-click-button">Add Click</button>
+    <h1>Clicks: <span id="click-count-label">0</span></h1>
+    
+      <img id="parrot" src="https://cultofthepartyparrot.com/parrots/hd/parrot.gif" />
+    
     <!--  TODO: Add reset button -->
-
+    <p></p>
+    <button id="reset-click-button">Reset Click</button>
     <!--  Extra: -->
     <!-- <main>
       <div id="box-one" class="box box--mouseover">
@@ -29,5 +32,6 @@
         <p>double click me</p>
       </div>
     </main> -->
+    <script src="src/index.js" type="text/javascript"></script>
   </body>
 </html>
